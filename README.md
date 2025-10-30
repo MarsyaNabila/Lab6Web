@@ -188,6 +188,101 @@ Hasil di browser:
 
 <img width="1916" height="852" alt="Screenshot 2025-10-30 165715" src="https://github.com/user-attachments/assets/d3d3cd24-9338-417a-8769-cdba95e87de8" />
 
+<img width="1919" height="862" alt="Screenshot 2025-10-30 165908" src="https://github.com/user-attachments/assets/c1515baf-4ddc-4dcf-8bec-85459ee2504b" />
+
+# 3. Buat Halaman Portfolio Sederhana
+
+````html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Marsya Nabila Putri</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="#">Marsya Nabila Putri</a>
+  </div>
+</nav>
+
+<!-- Tentang Saya -->
+<div class="container my-5">
+  <div class="row align-items-center">
+    <div class="col-md-4">
+      <img src="https://picsum.photos/300" alt="Foto Saya" class="img-fluid rounded">
+    </div>
+    <div class="col-md-8">
+      <h2>Marsya Nabila Putri</h2>
+      <p>Mahasiswi Informatika yang tertarik dalam pengembangan web dan desain UI/UX. 
+         Mempunyai semangat tinggi untuk belajar teknologi terbaru dan membangun website interaktif.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio -->
+<div class="container my-5">
+  <h3 class="text-center mb-4">Portfolio Saya</h3>
+  <div class="row">
+    <div class="col-md-4 mb-3">
+      <div class="card">
+        <img src="https://picsum.photos/400/200" class="card-img-top" alt="Project 1">
+        <div class="card-body">
+          <h5 class="card-title">Proyek 1</h5>
+          <p class="card-text">Website profil menggunakan HTML dan Bootstrap.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <div class="card">
+        <img src="https://picsum.photos/401/200" class="card-img-top" alt="Project 2">
+        <div class="card-body">
+          <h5 class="card-title">Proyek 2</h5>
+          <p class="card-text">Form login interaktif dengan validasi JavaScript.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <div class="card">
+        <img src="https://picsum.photos/402/200" class="card-img-top" alt="Project 3">
+        <div class="card-body">
+          <h5 class="card-title">Proyek 3</h5>
+          <p class="card-text">Dashboard admin responsif menggunakan Bootstrap Grid.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+````
+
+
+Kode HTML di atas merupakan sebuah **halaman portfolio pribadi** yang menampilkan identitas dan hasil karya *Marsya Nabila Putri*. Halaman ini menggunakan **Bootstrap 5** untuk mempermudah pembuatan tata letak yang rapi, responsif, dan menarik di berbagai ukuran layar. Pada bagian `<head>`, terdapat pengaturan dasar seperti meta tag `charset="UTF-8"` agar teks tampil dengan benar, serta `viewport` yang memastikan halaman dapat menyesuaikan ukuran layar perangkat. Selain itu, halaman juga memuat link ke pustaka Bootstrap melalui CDN agar semua komponen seperti navbar, grid, dan card dapat digunakan tanpa pengaturan manual CSS tambahan.
+
+Bagian pertama halaman adalah **navbar** dengan latar belakang biru (`bg-primary`) dan teks putih (`navbar-dark`). Di dalam navbar terdapat elemen `navbar-brand` yang menampilkan nama pemilik portfolio, yaitu *Marsya Nabila Putri*. Fungsi navbar di sini adalah sebagai header identitas, sehingga pengunjung langsung mengetahui siapa pemilik halaman.
+
+Selanjutnya terdapat bagian **“Tentang Saya”** yang disusun menggunakan sistem grid Bootstrap. Bagian ini terdiri dari dua kolom: di sisi kiri terdapat gambar profil berbentuk persegi dengan sudut membulat (`rounded`), dan di sisi kanan terdapat nama, serta deskripsi singkat mengenai latar belakang dan minat Marsya dalam bidang informatika, khususnya pengembangan web dan desain UI/UX. Penggunaan kelas `align-items-center` membuat konten di kedua kolom sejajar secara vertikal, sehingga tampil lebih proporsional.
+
+Bagian berikutnya adalah **“Portfolio Saya”**, yaitu kumpulan hasil proyek yang pernah dibuat. Setiap proyek ditampilkan menggunakan **komponen card** Bootstrap yang berisi gambar, judul proyek, serta deskripsi singkat mengenai isi atau tujuan proyek tersebut. Card-card ini disusun dalam tiga kolom (`col-md-4`) agar tampil sejajar di layar besar dan otomatis menumpuk di layar kecil, menjadikannya responsif.
+
+Terakhir, di bagian bawah terdapat script Bootstrap JS yang berfungsi untuk mengaktifkan elemen interaktif seperti navbar toggle saat diakses lewat perangkat mobile. Secara keseluruhan, halaman ini menggambarkan struktur portfolio yang sederhana namun elegan — memadukan elemen visual, identitas diri, dan hasil karya dalam satu tampilan yang bersih serta mudah diakses.
+
+Hasil di browser:
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/89b2610d-d070-4cd1-8589-769a68c921d7" />
+
+
+
+
+
+
 
 
 
