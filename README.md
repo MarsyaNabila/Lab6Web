@@ -129,3 +129,65 @@ Selanjutnya di dalam `<div class="container">`, terdapat dua bagian utama:
 Terakhir, Bootstrap JavaScript ditambahkan di bagian bawah agar fitur interaktif seperti tombol menu di navbar dapat berfungsi dengan baik.
 Secara keseluruhan, kode ini menampilkan layout halaman web sederhana dengan struktur grid yang bersih tanpa menggunakan CSS manual.
 
+Hasil di browser:
+
+<img width="1919" height="835" alt="Screenshot 2025-10-30 164354" src="https://github.com/user-attachments/assets/30520b1a-648f-4e82-9ee4-18d9bf3c7db7" />
+
+# 2. Refactor Form Pratikum 5
+
+````html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+  <h3 class="text-center mb-4">Form Kontak</h3>
+
+  <form>
+    <div class="mb-3">
+      <label for="nama" class="form-label">Nama Lengkap</label>
+      <input type="text" class="form-control" id="nama" placeholder="Masukkan nama Anda">
+    </div>
+
+    <div class="mb-3">
+      <label for="email" class="form-label">Alamat Email</label>
+      <input type="email" class="form-control" id="email" placeholder="nama@contoh.com">
+    </div>
+
+    <div class="mb-3">
+      <label for="pesan" class="form-label">Pesan</label>
+      <textarea class="form-control" id="pesan" rows="3" placeholder="Tulis pesan Anda di sini"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Kirim</button>
+  </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+````
+
+Kode HTML di atas merupakan pembuatan **form kontak sederhana** dengan tampilan modern menggunakan **Bootstrap 5**. Struktur utamanya dimulai dengan deklarasi `<!DOCTYPE html>` dan bahasa halaman diatur ke bahasa Indonesia (`lang="id"`). Pada bagian `<head>`, terdapat meta tag untuk mengatur karakter UTF-8 dan viewport agar tampilan halaman menyesuaikan ukuran layar perangkat, sehingga form terlihat rapi baik di komputer maupun di smartphone. Selain itu, halaman juga memuat link Bootstrap dari CDN untuk memanfaatkan gaya dan komponen siap pakai tanpa harus mengunduh file tambahan.
+
+Di dalam `<body>`, terdapat sebuah **container Bootstrap** dengan margin atas (`mt-5`) agar posisi form tidak menempel di tepi atas halaman. Judul “Form Kontak” ditampilkan di tengah menggunakan kelas `text-center` dan diberi jarak bawah (`mb-4`). Setelah itu terdapat elemen `<form>` yang berisi tiga input utama, masing-masing dibungkus dalam `<div class="mb-3">` untuk memberi jarak antar elemen form.
+
+* Input pertama adalah **Nama Lengkap**, menggunakan tipe teks (`type="text"`) dengan label dan placeholder sebagai petunjuk isi.
+* Input kedua adalah **Alamat Email**, menggunakan `type="email"` yang otomatis memvalidasi format email saat dikirim.
+* Input ketiga adalah **Pesan**, menggunakan elemen `<textarea>` agar pengguna bisa menulis pesan lebih panjang.
+
+Setelah ketiga elemen input, terdapat tombol **“Kirim”** dengan kelas `btn btn-primary` yang memberikan tampilan tombol biru khas Bootstrap. Terakhir, di bagian bawah halaman disertakan **Bootstrap JavaScript bundle** agar elemen interaktif Bootstrap dapat berfungsi dengan baik. Secara keseluruhan, kode ini membuat tampilan form yang bersih, profesional, dan responsif untuk digunakan pada halaman kontak sebuah website.
+
+Hasil di browser:
+
+<img width="1916" height="852" alt="Screenshot 2025-10-30 165715" src="https://github.com/user-attachments/assets/d3d3cd24-9338-417a-8769-cdba95e87de8" />
+
+
+
+
