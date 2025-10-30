@@ -116,3 +116,16 @@ Buat folder baru dengan nama ```lab6_bootstrap```
 </body>
 </html>
 ````
+
+Kode HTML di atas merupakan rancangan halaman web sederhana yang menggunakan Bootstrap 5 untuk membuat tampilan lebih rapi, responsif, dan modern. Struktur halaman terdiri dari tiga bagian utama, yaitu navbar, konten utama, dan sidebar, semuanya ditempatkan di dalam container Bootstrap agar memiliki tata letak yang teratur.
+
+Pada bagian `<body>`, terdapat **navbar** berwarna gelap di bagian atas dengan nama “Praktikum 6” dan dua menu navigasi yaitu *Home* dan *Artikel*. Navbar ini dibuat menggunakan komponen `navbar` Bootstrap.
+
+Selanjutnya di dalam `<div class="container">`, terdapat dua bagian utama:
+
+1. **Baris Heading** (`<div class="row">`) yang berisi tiga kolom (`col-md-4`). Masing-masing kolom menggunakan komponen `card` yang menampilkan judul “Heading 1–3” beserta deskripsi singkatnya.
+2. **Baris Konten Utama dan Sidebar** yang terdiri dari dua kolom: kolom kiri (`col-md-8`) untuk konten utama dan kolom kanan (`col-md-4`) untuk sidebar. Keduanya juga menggunakan komponen `card` agar tampil rapi dan seragam.
+
+Terakhir, Bootstrap JavaScript ditambahkan di bagian bawah agar fitur interaktif seperti tombol menu di navbar dapat berfungsi dengan baik.
+Secara keseluruhan, kode ini menampilkan layout halaman web sederhana dengan struktur grid yang bersih tanpa menggunakan CSS manual.
+
