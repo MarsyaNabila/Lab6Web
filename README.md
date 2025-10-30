@@ -39,10 +39,10 @@ Buat folder baru dengan nama ```lab6_bootstrap```
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link active" href="#">Bootstrap</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Artikel</a>
+            <a class="nav-link" href="#">Portofolio</a>
           </li>
         </ul>
       </div>
@@ -131,7 +131,9 @@ Secara keseluruhan, kode ini menampilkan layout halaman web sederhana dengan str
 
 Hasil di browser:
 
-<img width="1919" height="835" alt="Screenshot 2025-10-30 164354" src="https://github.com/user-attachments/assets/30520b1a-648f-4e82-9ee4-18d9bf3c7db7" />
+<img width="1910" height="710" alt="image" src="https://github.com/user-attachments/assets/95324bf7-c7af-4b36-b652-66a206eb30d3" />
+
+
 
 # 2. Refactor Form Pratikum 5
 
