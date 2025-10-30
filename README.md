@@ -1,4 +1,4 @@
-# Lab6Web
+# Praktikum 6: Twitter Bootstrap
 
 Nama: Marsya Nabila Putri
 
