@@ -8,7 +8,6 @@ Kelas: TI.24.A4
 
 <img width="893" height="662" alt="image" src="https://github.com/user-attachments/assets/f540f4b6-7e73-4248-aba3-20b65e7b6cbb" />
 
-Buat folder baru dengan nama ```lab6_bootstrap```
 
 # 1. Refactor Layout Pratikum 4
 
@@ -117,7 +116,7 @@ Buat folder baru dengan nama ```lab6_bootstrap```
 </html>
 ````
 
-Kode HTML di atas merupakan rancangan halaman web sederhana yang menggunakan Bootstrap 5 untuk membuat tampilan lebih rapi, responsif, dan modern. Struktur halaman terdiri dari tiga bagian utama, yaitu navbar, konten utama, dan sidebar, semuanya ditempatkan di dalam container Bootstrap agar memiliki tata letak yang teratur.
+Buat folder baru dengan nama ```lab6_bootstrap```. lalu tambahkan file di dalamnya dengan nama ```index.html``` di dalam folder tersebut. Kode HTML di atas merupakan rancangan halaman web sederhana yang menggunakan Bootstrap 5 untuk membuat tampilan lebih rapi, responsif, dan modern. Struktur halaman terdiri dari tiga bagian utama, yaitu navbar, konten utama, dan sidebar, semuanya ditempatkan di dalam container Bootstrap agar memiliki tata letak yang teratur.
 
 Pada bagian `<body>`, terdapat **navbar** berwarna gelap di bagian atas dengan nama “Praktikum 6” dan dua menu navigasi yaitu *Home* dan *Artikel*. Navbar ini dibuat menggunakan komponen `navbar` Bootstrap.
 
