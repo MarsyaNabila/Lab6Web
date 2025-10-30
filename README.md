@@ -219,8 +219,7 @@ Hasil di browser:
     </div>
     <div class="col-md-8">
       <h2>Marsya Nabila Putri</h2>
-      <p>Mahasiswi Informatika yang tertarik dalam pengembangan web dan desain UI/UX. 
-         Mempunyai semangat tinggi untuk belajar teknologi terbaru dan membangun website interaktif.</p>
+      <p>Hallo saya Marsya Nabila Putri Mahasiswa Teknik Informatika yang memiliki rasa ingin tahu tinggi terhadap perkembangan teknologi dan senang menciptakan web yang interaktif..</p>
     </div>
   </div>
 </div>
@@ -264,21 +263,19 @@ Hasil di browser:
 </html>
 ````
 
+Kode HTML di atas merupakan contoh halaman **portfolio pribadi** milik *Marsya Nabila Putri* yang dibuat menggunakan **Bootstrap 5** agar tampilannya menarik dan responsif di berbagai perangkat. Struktur halaman terdiri dari tiga bagian utama, yaitu **navbar**, **bagian tentang saya**, dan **bagian portfolio**.
 
-Kode HTML di atas merupakan sebuah **halaman portfolio pribadi** yang menampilkan identitas dan hasil karya *Marsya Nabila Putri*. Halaman ini menggunakan **Bootstrap 5** untuk mempermudah pembuatan tata letak yang rapi, responsif, dan menarik di berbagai ukuran layar. Pada bagian `<head>`, terdapat pengaturan dasar seperti meta tag `charset="UTF-8"` agar teks tampil dengan benar, serta `viewport` yang memastikan halaman dapat menyesuaikan ukuran layar perangkat. Selain itu, halaman juga memuat link ke pustaka Bootstrap melalui CDN agar semua komponen seperti navbar, grid, dan card dapat digunakan tanpa pengaturan manual CSS tambahan.
+Pada bagian atas terdapat **navbar** berwarna biru (`bg-primary`) dengan teks putih (`navbar-dark`) yang menampilkan nama pemilik situs. Navbar ini berfungsi sebagai identitas halaman dan tetap terlihat rapi di layar besar maupun kecil karena memanfaatkan sistem grid Bootstrap.
 
-Bagian pertama halaman adalah **navbar** dengan latar belakang biru (`bg-primary`) dan teks putih (`navbar-dark`). Di dalam navbar terdapat elemen `navbar-brand` yang menampilkan nama pemilik portfolio, yaitu *Marsya Nabila Putri*. Fungsi navbar di sini adalah sebagai header identitas, sehingga pengunjung langsung mengetahui siapa pemilik halaman.
+Selanjutnya bagian **“Tentang Saya”** menampilkan foto dan deskripsi singkat tentang Marsya sebagai mahasiswa Teknik Informatika. Layout bagian ini menggunakan dua kolom: kolom kiri menampilkan gambar profil, dan kolom kanan berisi teks perkenalan. Penggunaan kelas `align-items-center` membuat keduanya sejajar secara vertikal sehingga tampil proporsional.
 
-Selanjutnya terdapat bagian **“Tentang Saya”** yang disusun menggunakan sistem grid Bootstrap. Bagian ini terdiri dari dua kolom: di sisi kiri terdapat gambar profil berbentuk persegi dengan sudut membulat (`rounded`), dan di sisi kanan terdapat nama, serta deskripsi singkat mengenai latar belakang dan minat Marsya dalam bidang informatika, khususnya pengembangan web dan desain UI/UX. Penggunaan kelas `align-items-center` membuat konten di kedua kolom sejajar secara vertikal, sehingga tampil lebih proporsional.
+Bagian terakhir adalah **“Portfolio Saya”**, yang menampilkan tiga proyek dalam bentuk **card Bootstrap**. Masing-masing card berisi gambar, judul proyek, dan penjelasan singkat seperti website profil, form login, dan dashboard admin. Susunan tiga kolom ini otomatis menyesuaikan ukuran layar agar tetap terlihat rapi dan responsif.
 
-Bagian berikutnya adalah **“Portfolio Saya”**, yaitu kumpulan hasil proyek yang pernah dibuat. Setiap proyek ditampilkan menggunakan **komponen card** Bootstrap yang berisi gambar, judul proyek, serta deskripsi singkat mengenai isi atau tujuan proyek tersebut. Card-card ini disusun dalam tiga kolom (`col-md-4`) agar tampil sejajar di layar besar dan otomatis menumpuk di layar kecil, menjadikannya responsif.
-
-Terakhir, di bagian bawah terdapat script Bootstrap JS yang berfungsi untuk mengaktifkan elemen interaktif seperti navbar toggle saat diakses lewat perangkat mobile. Secara keseluruhan, halaman ini menggambarkan struktur portfolio yang sederhana namun elegan — memadukan elemen visual, identitas diri, dan hasil karya dalam satu tampilan yang bersih serta mudah diakses.
+Di bagian paling bawah terdapat **Bootstrap JavaScript bundle** yang memungkinkan fitur interaktif seperti responsivitas berjalan dengan baik. 
 
 Hasil di browser:
 
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/89b2610d-d070-4cd1-8589-769a68c921d7" />
-
+<img width="1912" height="1079" alt="image" src="https://github.com/user-attachments/assets/8c9e0b94-3e6b-49ec-b69b-b1224895ccb1" />
 
 
 
